@@ -1,0 +1,11 @@
+/home/lukes/eclipse-workspace/TloocTestAuto/src/main/java/com/baseSetup/DriverMethods.java
+/home/lukes/eclipse-workspace/TloocTestAuto/src/main/java/com/baseSetup/DriverHandler.java
+/home/lukes/eclipse-workspace/TloocTestAuto/src/main/java/com/pageObjects/Pages/HomePage.java
+/home/lukes/eclipse-workspace/TloocTestAuto/src/main/java/com/pageObjects/Pages/ResultsPage.java
+/home/lukes/eclipse-workspace/TloocTestAuto/src/main/java/com/baseSetup/ElementMethods.java
+/home/lukes/eclipse-workspace/TloocTestAuto/src/main/java/com/pageObjects/Elements/Button.java
+/home/lukes/eclipse-workspace/TloocTestAuto/src/main/java/com/pageObjects/BaseElement.java
+/home/lukes/eclipse-workspace/TloocTestAuto/src/main/java/com/pageObjects/BasePage.java
+/home/lukes/eclipse-workspace/TloocTestAuto/src/main/java/com/pageObjects/Elements/InputField.java
+/home/lukes/eclipse-workspace/TloocTestAuto/src/main/java/com/testSetup/BaseTest.java
+/home/lukes/eclipse-workspace/TloocTestAuto/src/main/java/com/pageObjects/Elements/Label.java

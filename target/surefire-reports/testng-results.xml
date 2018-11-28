@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="tloocTests.GoogleHomeTest" duration-ms="9174" started-at="2018-11-28T21:39:03Z" finished-at="2018-11-28T21:39:12Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="9174" started-at="2018-11-28T21:39:03Z" finished-at="2018-11-28T21:39:12Z">
+      <class name="tloocTests.GoogleHomeTest">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:tloocTests.GoogleHomeTest@35f983a6]" name="initialize" is-config="true" duration-ms="2386" started-at="2018-11-28T21:39:03Z" finished-at="2018-11-28T21:39:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testSearchClickingSearchBlabla()[pri:0, instance:tloocTests.GoogleHomeTest@35f983a6]" name="testSearchClickingSearchBlabla" duration-ms="2606" started-at="2018-11-28T21:39:05Z" description="Verifies that results page is displyed when doing search" finished-at="2018-11-28T21:39:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchClickingSearchBlabla -->
+        <test-method status="PASS" signature="terminate()[pri:0, instance:tloocTests.GoogleHomeTest@35f983a6]" name="terminate" is-config="true" duration-ms="124" started-at="2018-11-28T21:39:08Z" finished-at="2018-11-28T21:39:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminate -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:tloocTests.GoogleHomeTest@35f983a6]" name="initialize" is-config="true" duration-ms="1570" started-at="2018-11-28T21:39:08Z" finished-at="2018-11-28T21:39:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testSearchClickingSearchOnGoogle()[pri:0, instance:tloocTests.GoogleHomeTest@35f983a6]" name="testSearchClickingSearchOnGoogle" duration-ms="2343" started-at="2018-11-28T21:39:09Z" description="Verifies that results page is displyed when doing search" finished-at="2018-11-28T21:39:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchClickingSearchOnGoogle -->
+        <test-method status="PASS" signature="terminate()[pri:0, instance:tloocTests.GoogleHomeTest@35f983a6]" name="terminate" is-config="true" duration-ms="117" started-at="2018-11-28T21:39:12Z" finished-at="2018-11-28T21:39:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminate -->
+      </class> <!-- tloocTests.GoogleHomeTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- tloocTests.GoogleHomeTest -->
+</testng-results>
