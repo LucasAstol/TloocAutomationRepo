@@ -2,6 +2,7 @@ package com.baseSetup;
 
 import java.util.Locale;
 
+
 public class DriverHelper {
 	
 		private static String osName = System.getProperty("os.name").toLowerCase(Locale.ENGLISH);
@@ -31,10 +32,10 @@ public class DriverHelper {
 				break;
 			}
 		}
-		
+
+		//DEPRECATED - Used previously for choosing the correct driver based on machine configuration
 		public void setChromeDriverPath() {
 			
-			//DEPRECATED - Used previously for choosing the correct driver based on machine configuration
 			switch (osName) {
 			case "linux":
 				System.setProperty("webdriver.chrome.driver", CHROME_DRIVER_PATH+"linux64/chromedriver");			

@@ -3,6 +3,7 @@ package tloocTests;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import com.pageObjects.Pages.Header;
 import com.pageObjects.Pages.HomePage;
 import com.pageObjects.Pages.LoginPage;
 import com.testSetup.BaseTest;
@@ -15,16 +16,13 @@ private HomePage home = new HomePage();
 			testName = "homepage")
 	public void loginPageTravelooc() {
 		
-		Assert.assertTrue(home.searchCities().isVisible(), "Google home page not displayed");
+		Assert.assertTrue(home.searchCities().isVisible(), "Home page is not displayed");	
 		
-		home.loginButton().click();
+		Header header = new Header();
+		header.getAccesoButton().click();		
 		
 		LoginPage login = new LoginPage();
-		
-		login.emailInput().scrollTo();
-		Assert.assertTrue(login.title().isVisible(), "Login page not displayed");
-		Assert.assertTrue(login.emailInput().isVisible(), "no se ve el email");	
-		
+		Assert.assertTrue(login.emailInput().isVisible(), "Home page is not displayed");	
 	}
 
 }
