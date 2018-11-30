@@ -11,15 +11,15 @@ public class HomePage extends BasePage{
 		super();
 	}
 	
-	public Button buttonSubmit() {
+	
+	public InputField searchCities() {
 		
-		return new Button(By.cssSelector("div.FPdoLc.VlcLAe input[name='btnK']"));
+		return new InputField(By.id("donde-1"));				
 	}
 	
-	public InputField inputSearch(){
+	public Button loginButton () {
 		
-		return new InputField(By.cssSelector("input.gLFyf.gsfi"));
+		return new Button(By.cssSelector("ul a[title='Login']"));
 	}
-	
 
 }

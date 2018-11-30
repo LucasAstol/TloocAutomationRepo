@@ -21,7 +21,7 @@ public class BaseElement {
 	
 	public boolean isVisible() {
 		
-		return ElementMethods.isVisible(this.locator);
+		return ElementMethods.isVisible(this.getWebElement());
 	}
 	
 	public boolean isEnabled() {
@@ -29,7 +29,7 @@ public class BaseElement {
 		return this.getWebElement().isEnabled();
 	}
 	
-	public String text() {
+	public String getText() {
 		
 		return this.getWebElement().getText();
 	}
@@ -37,6 +37,11 @@ public class BaseElement {
 	public void click() {
 		
 		ElementMethods.clickWait(this.getWebElement());
+	}
+	
+	public void scrollTo () {
+		
+		ElementMethods.scrollToElement(this.getWebElement());
 	}
 	
 	

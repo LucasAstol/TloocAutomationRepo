@@ -3,13 +3,13 @@ package tloocTests;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import com.pageObjects.Pages.HomePage;
-import com.pageObjects.Pages.ResultsPage;
+import com.pageObjects.Pages.GoogleHomePageJustTesting;
+import com.pageObjects.Pages.GoogleResultsPageJustTesting;
 import com.testSetup.BaseTest;
 
 public class GoogleHomeTest extends BaseTest {
 	
-	private HomePage home = new HomePage();
+	private GoogleHomePageJustTesting home = new GoogleHomePageJustTesting();
 	
 	@Test (description = "Verifies that results page is displyed when doing search", 
 			testName = "Search by clicking on Search on Google button")
@@ -21,8 +21,8 @@ public class GoogleHomeTest extends BaseTest {
 		home.inputSearch().focusOut();
 		home.buttonSubmit().click();
 		
-		ResultsPage results = new ResultsPage();
-		Assert.assertTrue(results.labelResultsStats().text().contains("resultados"), "Results page is not displayed");		
+		GoogleResultsPageJustTesting results = new GoogleResultsPageJustTesting();
+		Assert.assertTrue(results.labelResultsStats().getText().contains("resultados"), "Results page is not displayed");		
 	}
 	
 	@Test (description = "Verifies that results page is displyed when doing search", 
@@ -35,8 +35,8 @@ public class GoogleHomeTest extends BaseTest {
 		home.inputSearch().focusOut();
 		home.buttonSubmit().click();
 		
-		ResultsPage results = new ResultsPage();
-		Assert.assertTrue(results.labelResultsStats().text().contains("resultados"), "Results page is not displayed");		
+		GoogleResultsPageJustTesting results = new GoogleResultsPageJustTesting();
+		Assert.assertTrue(results.labelResultsStats().getText().contains("rjytdydos"), "Results page is not displayed");		
 	}	
 	
 

@@ -2,7 +2,6 @@ package com.baseSetup;
 
 import java.util.List;
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -28,9 +27,5 @@ public class DriverMethods {
 		return elements;
 	}
 	
-	public static void scrollToElement (By locator) {
-		
-		((JavascriptExecutor) DriverHandler.getDriver()).executeScript("arguments[0].scrollIntoView(true);", findElementWait(locator));
-	}
 		
 }

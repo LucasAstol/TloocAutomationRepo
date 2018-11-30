@@ -1,6 +1,7 @@
 package com.baseSetup;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -19,9 +20,15 @@ public class ElementMethods {
 		return ExpectedConditions.elementToBeClickable(locator) != null;
 	}	
 	
-	public static boolean isVisible (By locator) {
+	public static boolean isVisible (WebElement element) {
 		
-		return ExpectedConditions.visibilityOfElementLocated(locator) != null;
+		return new WebDriverWait(DriverHandler.getDriver(), waitTimeout)
+				.until(ExpectedConditions.visibilityOf(element)).isDisplayed(); 	
+	}
+
+	public static void scrollToElement (WebElement element) {
+		
+		((JavascriptExecutor) DriverHandler.getDriver()).executeScript("arguments[0].scrollIntoView(true);", element);
 	}
 	
 }

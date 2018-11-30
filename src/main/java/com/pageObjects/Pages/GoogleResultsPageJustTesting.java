@@ -5,9 +5,9 @@ import org.openqa.selenium.By;
 import com.pageObjects.*;
 import com.pageObjects.Elements.Label;
 
-public class ResultsPage extends BasePage {
+public class GoogleResultsPageJustTesting extends BasePage {
 	
-	public ResultsPage() {
+	public GoogleResultsPageJustTesting() {
 		super();
 	}
 	
