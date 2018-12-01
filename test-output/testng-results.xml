@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="17245" started-at="2018-11-30T14:41:39Z" finished-at="2018-11-30T14:41:57Z">
+  <suite name="Default suite" duration-ms="11317" started-at="2018-11-30T21:27:49Z" finished-at="2018-11-30T21:28:01Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="17245" started-at="2018-11-30T14:41:39Z" finished-at="2018-11-30T14:41:57Z">
+    <test name="Default test" duration-ms="11317" started-at="2018-11-30T21:27:49Z" finished-at="2018-11-30T21:28:01Z">
       <class name="tloocTests.HomePageTest">
-        <test-method status="PASS" signature="webDriverManagerSetup()[pri:0, instance:tloocTests.HomePageTest@1e88b3c]" name="webDriverManagerSetup" is-config="true" duration-ms="2805" started-at="2018-11-30T14:41:39Z" finished-at="2018-11-30T14:41:42Z">
+        <test-method status="PASS" signature="webDriverManagerSetup()[pri:0, instance:tloocTests.HomePageTest@59f99ea]" name="webDriverManagerSetup" is-config="true" duration-ms="6697" started-at="2018-11-30T21:27:49Z" finished-at="2018-11-30T21:27:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- webDriverManagerSetup -->
-        <test-method status="PASS" signature="initialize()[pri:0, instance:tloocTests.HomePageTest@1e88b3c]" name="initialize" is-config="true" duration-ms="13036" started-at="2018-11-30T14:41:42Z" finished-at="2018-11-30T14:41:55Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:tloocTests.HomePageTest@59f99ea]" name="initialize" is-config="true" duration-ms="3946" started-at="2018-11-30T21:27:56Z" finished-at="2018-11-30T21:28:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="loginPageTravelooc()[pri:0, instance:tloocTests.HomePageTest@1e88b3c]" name="loginPageTravelooc" duration-ms="602" started-at="2018-11-30T14:41:55Z" description="Verifies that results page is displyed when doing search" finished-at="2018-11-30T14:41:56Z">
+        <test-method status="PASS" signature="loginPageTravelooc()[pri:0, instance:tloocTests.HomePageTest@59f99ea]" name="loginPageTravelooc" duration-ms="579" started-at="2018-11-30T21:28:00Z" description="Verifies that results page is displyed when doing search" finished-at="2018-11-30T21:28:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageTravelooc -->
-        <test-method status="PASS" signature="terminate()[pri:0, instance:tloocTests.HomePageTest@1e88b3c]" name="terminate" is-config="true" duration-ms="781" started-at="2018-11-30T14:41:56Z" finished-at="2018-11-30T14:41:57Z">
+        <test-method status="PASS" signature="terminate()[pri:0, instance:tloocTests.HomePageTest@59f99ea]" name="terminate" is-config="true" duration-ms="72" started-at="2018-11-30T21:28:01Z" finished-at="2018-11-30T21:28:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- terminate -->

@@ -12,7 +12,7 @@ public class HomePageTest extends BaseTest{
 	
 private HomePage home = new HomePage();
 	
-	@Test (description = "Verifies that results page is displyed when doing search", 
+	@Test (description = "Verifies login page is displayed", 
 			testName = "homepage")
 	public void loginPageTravelooc() {
 		
