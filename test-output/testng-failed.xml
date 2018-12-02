@@ -3,14 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tloocTests.HomePageTest">
+      <class name="tloocTests.LoginPageTest">
         <methods>
           <include name="terminate"/>
           <include name="initialize"/>
           <include name="webDriverManagerSetup"/>
-          <include name="loginPageTravelooc"/>
+          <include name="loginPageIsDisplayed"/>
         </methods>
-      </class> <!-- tloocTests.HomePageTest -->
+      </class> <!-- tloocTests.LoginPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

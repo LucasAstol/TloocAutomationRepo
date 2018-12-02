@@ -11,7 +11,7 @@ public class LoginPage extends BasePage {
 		super();
 	}
 	
-	public InputField emailInput() {
+	public InputField getInputEmail() {
 		
 		return new InputField(By.cssSelector("input[name='email']"));
 	}
@@ -20,4 +20,17 @@ public class LoginPage extends BasePage {
 		
 		return new Label(By.cssSelector("h3"));
 	}
+	
+	public InputField getInputPassword() {
+		
+		return new InputField(By.cssSelector("input[na='password']"));
+	}
+	
+	public Button getButtonLogin() {
+		
+		return new Button(By.cssSelector("input[name='password']"));
+	}
+	
+	
+	
 }
