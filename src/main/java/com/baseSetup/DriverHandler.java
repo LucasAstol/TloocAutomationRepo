@@ -14,12 +14,6 @@ public class DriverHandler {
 
 	private static WebDriver activeDriver;
 	
-	//Attributes deprecated
-	/*private static String osName;
-	private static String osArch;
-	private static final String GECKO_DRIVER_PATH = "src/main/resources/geckoDrivers/";
-	private static final String CHROME_DRIVER_PATH = "src/main/resources/chromeDrivers/";*/
-	
 	public static WebDriver getDriver() {
 		
 		if (activeDriver == null) {
@@ -31,9 +25,6 @@ public class DriverHandler {
 	
 	//The idea is to have the ability of determining the driver to use from a config file and set it from setDriver() method
 	private static void setDriver() {
-		
-		/*osName = System.getProperty("os.name").toLowerCase(Locale.ENGLISH);
-		osArch = System.getProperty("os.arch").toLowerCase(Locale.ENGLISH);*/
 		
 		activeDriver = initChromeDriver();
 		activeDriver.manage().timeouts().pageLoadTimeout(1, TimeUnit.MINUTES);

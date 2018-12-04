@@ -2,40 +2,46 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="tloocTests.GoogleHomeTest" duration-ms="23271" started-at="2018-11-29T16:11:13Z" finished-at="2018-11-29T16:11:36Z">
+  <suite name="Command line suite" duration-ms="22634" started-at="2018-12-03T11:44:23Z" finished-at="2018-12-03T11:44:46Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="23271" started-at="2018-11-29T16:11:13Z" finished-at="2018-11-29T16:11:36Z">
-      <class name="tloocTests.GoogleHomeTest">
-        <test-method status="PASS" signature="webDriverManagerSetup()[pri:0, instance:tloocTests.GoogleHomeTest@5f2050f6]" name="webDriverManagerSetup" is-config="true" duration-ms="3164" started-at="2018-11-29T16:11:13Z" finished-at="2018-11-29T16:11:16Z">
+    <test name="Command line test" duration-ms="22634" started-at="2018-12-03T11:44:23Z" finished-at="2018-12-03T11:44:46Z">
+      <class name="tloocTests.LoginPageTest">
+        <test-method status="PASS" signature="webDriverManagerSetup()[pri:0, instance:tloocTests.LoginPageTest@1324409e]" name="webDriverManagerSetup" is-config="true" duration-ms="1167" started-at="2018-12-03T11:44:36Z" finished-at="2018-12-03T11:44:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- webDriverManagerSetup -->
-        <test-method status="PASS" signature="initialize()[pri:0, instance:tloocTests.GoogleHomeTest@5f2050f6]" name="initialize" is-config="true" duration-ms="8344" started-at="2018-11-29T16:11:16Z" finished-at="2018-11-29T16:11:24Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:tloocTests.LoginPageTest@1324409e]" name="initialize" is-config="true" duration-ms="7226" started-at="2018-12-03T11:44:37Z" finished-at="2018-12-03T11:44:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="testSearchClickingSearchBlabla()[pri:0, instance:tloocTests.GoogleHomeTest@5f2050f6]" name="testSearchClickingSearchBlabla" duration-ms="2231" started-at="2018-11-29T16:11:24Z" description="Verifies that results page is displyed when doing search" finished-at="2018-11-29T16:11:27Z">
+        <test-method status="PASS" signature="loginPageIsDisplayed()[pri:0, instance:tloocTests.LoginPageTest@1324409e]" name="loginPageIsDisplayed" duration-ms="437" started-at="2018-12-03T11:44:45Z" description="Verify login page is displayed" finished-at="2018-12-03T11:44:45Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSearchClickingSearchBlabla -->
-        <test-method status="PASS" signature="terminate()[pri:0, instance:tloocTests.GoogleHomeTest@5f2050f6]" name="terminate" is-config="true" duration-ms="763" started-at="2018-11-29T16:11:27Z" finished-at="2018-11-29T16:11:27Z">
+        </test-method> <!-- loginPageIsDisplayed -->
+        <test-method status="PASS" signature="terminate()[pri:0, instance:tloocTests.LoginPageTest@1324409e]" name="terminate" is-config="true" duration-ms="767" started-at="2018-12-03T11:44:45Z" finished-at="2018-12-03T11:44:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- terminate -->
-        <test-method status="PASS" signature="initialize()[pri:0, instance:tloocTests.GoogleHomeTest@5f2050f6]" name="initialize" is-config="true" duration-ms="6529" started-at="2018-11-29T16:11:27Z" finished-at="2018-11-29T16:11:34Z">
+      </class> <!-- tloocTests.LoginPageTest -->
+      <class name="tloocTests.HomePageTest">
+        <test-method status="PASS" signature="webDriverManagerSetup()[pri:0, instance:tloocTests.HomePageTest@180bc464]" name="webDriverManagerSetup" is-config="true" duration-ms="3123" started-at="2018-12-03T11:44:23Z" finished-at="2018-12-03T11:44:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webDriverManagerSetup -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:tloocTests.HomePageTest@180bc464]" name="initialize" is-config="true" duration-ms="8645" started-at="2018-12-03T11:44:26Z" finished-at="2018-12-03T11:44:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="testSearchClickingSearchOnGoogle()[pri:0, instance:tloocTests.GoogleHomeTest@5f2050f6]" name="testSearchClickingSearchOnGoogle" duration-ms="1355" started-at="2018-11-29T16:11:34Z" description="Verifies that results page is displyed when doing search" finished-at="2018-11-29T16:11:35Z">
+        <test-method status="PASS" signature="loginPageTravelooc()[pri:0, instance:tloocTests.HomePageTest@180bc464]" name="loginPageTravelooc" duration-ms="513" started-at="2018-12-03T11:44:35Z" description="Verifies login page is displayed" finished-at="2018-12-03T11:44:36Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSearchClickingSearchOnGoogle -->
-        <test-method status="PASS" signature="terminate()[pri:0, instance:tloocTests.GoogleHomeTest@5f2050f6]" name="terminate" is-config="true" duration-ms="869" started-at="2018-11-29T16:11:35Z" finished-at="2018-11-29T16:11:36Z">
+        </test-method> <!-- loginPageTravelooc -->
+        <test-method status="PASS" signature="terminate()[pri:0, instance:tloocTests.HomePageTest@180bc464]" name="terminate" is-config="true" duration-ms="716" started-at="2018-12-03T11:44:36Z" finished-at="2018-12-03T11:44:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- terminate -->
-      </class> <!-- tloocTests.GoogleHomeTest -->
+      </class> <!-- tloocTests.HomePageTest -->
     </test> <!-- Command line test -->
-  </suite> <!-- tloocTests.GoogleHomeTest -->
+  </suite> <!-- Command line suite -->
 </testng-results>

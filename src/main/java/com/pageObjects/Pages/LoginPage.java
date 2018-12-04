@@ -23,7 +23,7 @@ public class LoginPage extends BasePage {
 	
 	public InputField getInputPassword() {
 		
-		return new InputField(By.cssSelector("input[na='password']"));
+		return new InputField(By.cssSelector("input[name='password']"));
 	}
 	
 	public Button getButtonLogin() {
