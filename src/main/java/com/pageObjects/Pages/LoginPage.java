@@ -28,9 +28,19 @@ public class LoginPage extends BasePage {
 	
 	public Button getButtonLogin() {
 		
-		return new Button(By.cssSelector("input[name='password']"));
+		return new Button(By.cssSelector("#acceso input.button"));
 	}
 	
+	public Label getLabelPasswordErorMessage() {
+		
+		//Due to the HTML composition we are forced to catch the error message as a sibling of the password input
+		return new Label(By.cssSelector("input[name='password'] ~ span.form-error"));
+	}
 	
+	public Label getLabelEmailErrorMessage() {
+		
+		//Due to the HTML composition we are forced to catch the error message as a sibling of the email input
+		return new Label(By.cssSelector("input[name='email'] ~ span.form-error"));
+	}
 	
 }

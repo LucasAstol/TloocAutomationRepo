@@ -8,7 +8,6 @@ public class Label extends BaseElement{
 
 	public Label(By by) {
 		super(by);
-		// TODO Auto-generated constructor stub
 	}
 
 }

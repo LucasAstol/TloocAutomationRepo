@@ -22,5 +22,10 @@ public class InputField extends BaseElement{
 		
 		this.getWebElement().sendKeys(Keys.TAB);
 	}
+	
+	public boolean isValidatedRedHighlighted() {
+		
+		return this.getWebElement().getAttribute("style").equals("border-color: rgb(169, 68, 66);");
+	}
 
 }

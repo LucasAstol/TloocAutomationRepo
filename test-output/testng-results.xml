@@ -1,78 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="68600" started-at="2018-12-02T20:50:26Z" finished-at="2018-12-02T20:51:35Z">
+  <suite name="Default suite" duration-ms="11639" started-at="2018-12-06T21:35:14Z" finished-at="2018-12-06T21:35:26Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="68600" started-at="2018-12-02T20:50:26Z" finished-at="2018-12-02T20:51:35Z">
+    <test name="Default test" duration-ms="11639" started-at="2018-12-06T21:35:14Z" finished-at="2018-12-06T21:35:26Z">
       <class name="tloocTests.LoginPageTest">
-        <test-method status="PASS" signature="webDriverManagerSetup()[pri:0, instance:tloocTests.LoginPageTest@3e6fa38a]" name="webDriverManagerSetup" is-config="true" duration-ms="3131" started-at="2018-12-02T20:50:26Z" finished-at="2018-12-02T20:50:29Z">
+        <test-method status="PASS" signature="webDriverManagerSetup()[pri:0, instance:tloocTests.LoginPageTest@59f99ea]" name="webDriverManagerSetup" is-config="true" duration-ms="2634" started-at="2018-12-06T21:35:14Z" finished-at="2018-12-06T21:35:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- webDriverManagerSetup -->
-        <test-method status="PASS" signature="initialize()[pri:0, instance:tloocTests.LoginPageTest@3e6fa38a]" name="initialize" is-config="true" duration-ms="4661" started-at="2018-12-02T20:50:29Z" finished-at="2018-12-02T20:50:34Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:tloocTests.LoginPageTest@59f99ea]" name="initialize" is-config="true" duration-ms="4784" started-at="2018-12-06T21:35:17Z" finished-at="2018-12-06T21:35:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="FAIL" signature="loginPageIsDisplayed()[pri:0, instance:tloocTests.LoginPageTest@3e6fa38a]" name="loginPageIsDisplayed" duration-ms="60701" started-at="2018-12-02T20:50:34Z" description="Verify successful login" finished-at="2018-12-02T20:51:35Z">
-          <exception class="org.openqa.selenium.TimeoutException">
-            <message>
-              <![CDATA[Expected condition failed: waiting for presence of element located by: By.cssSelector: input[na='password'] (tried for 60 second(s) with 500 milliseconds interval)]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for presence of element located by: By.cssSelector: input[na='password'] (tried for 60 second(s) with 500 milliseconds interval)
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
-at com.baseSetup.DriverMethods.findElementWait(DriverMethods.java:17)
-at com.pageObjects.BaseElement.getWebElement(BaseElement.java:19)
-at com.pageObjects.BaseElement.isVisible(BaseElement.java:24)
-at tloocTests.LoginPageTest.loginPageIsDisplayed(LoginPageTest.java:23)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.cssSelector: input[na='password']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'lukes-PC', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-39-generic', java.version: '1.8.0_191'
-Driver info: driver.version: unknown
-at org.openqa.selenium.support.ui.ExpectedConditions.lambda$findElement$0(ExpectedConditions.java:896)
-at java.util.Optional.orElseThrow(Optional.java:290)
-at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
-at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
-at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:183)
-at org.openqa.selenium.support.ui.ExpectedConditions$6.apply(ExpectedConditions.java:180)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
-... 29 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+        <test-method status="PASS" signature="failedLoginBlankFields()[pri:0, instance:tloocTests.LoginPageTest@59f99ea]" name="failedLoginBlankFields" duration-ms="653" started-at="2018-12-06T21:35:21Z" description="Verify validation are displayed when attempting to login with blank fields" finished-at="2018-12-06T21:35:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedLoginBlankFields -->
+        <test-method status="PASS" signature="terminate()[pri:0, instance:tloocTests.LoginPageTest@59f99ea]" name="terminate" is-config="true" duration-ms="76" started-at="2018-12-06T21:35:22Z" finished-at="2018-12-06T21:35:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminate -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:tloocTests.LoginPageTest@59f99ea]" name="initialize" is-config="true" duration-ms="2787" started-at="2018-12-06T21:35:22Z" finished-at="2018-12-06T21:35:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="loginPageIsDisplayed()[pri:0, instance:tloocTests.LoginPageTest@59f99ea]" name="loginPageIsDisplayed" duration-ms="602" started-at="2018-12-06T21:35:25Z" description="Verify login page is displayed" finished-at="2018-12-06T21:35:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageIsDisplayed -->
-        <test-method status="PASS" signature="terminate()[pri:0, instance:tloocTests.LoginPageTest@3e6fa38a]" name="terminate" is-config="true" duration-ms="80" started-at="2018-12-02T20:51:35Z" finished-at="2018-12-02T20:51:35Z">
+        <test-method status="PASS" signature="terminate()[pri:0, instance:tloocTests.LoginPageTest@59f99ea]" name="terminate" is-config="true" duration-ms="77" started-at="2018-12-06T21:35:26Z" finished-at="2018-12-06T21:35:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- terminate -->
