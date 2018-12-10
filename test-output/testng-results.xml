@@ -2,36 +2,36 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11639" started-at="2018-12-06T21:35:14Z" finished-at="2018-12-06T21:35:26Z">
+  <suite name="Default suite" duration-ms="56565" started-at="2018-12-07T14:48:03Z" finished-at="2018-12-07T14:49:00Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11639" started-at="2018-12-06T21:35:14Z" finished-at="2018-12-06T21:35:26Z">
+    <test name="Default test" duration-ms="56565" started-at="2018-12-07T14:48:03Z" finished-at="2018-12-07T14:49:00Z">
       <class name="tloocTests.LoginPageTest">
-        <test-method status="PASS" signature="webDriverManagerSetup()[pri:0, instance:tloocTests.LoginPageTest@59f99ea]" name="webDriverManagerSetup" is-config="true" duration-ms="2634" started-at="2018-12-06T21:35:14Z" finished-at="2018-12-06T21:35:17Z">
+        <test-method status="PASS" signature="webDriverManagerSetup()[pri:0, instance:tloocTests.LoginPageTest@1e88b3c]" name="webDriverManagerSetup" is-config="true" duration-ms="5719" started-at="2018-12-07T14:48:03Z" finished-at="2018-12-07T14:48:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- webDriverManagerSetup -->
-        <test-method status="PASS" signature="initialize()[pri:0, instance:tloocTests.LoginPageTest@59f99ea]" name="initialize" is-config="true" duration-ms="4784" started-at="2018-12-06T21:35:17Z" finished-at="2018-12-06T21:35:21Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:tloocTests.LoginPageTest@1e88b3c]" name="initialize" is-config="true" duration-ms="26277" started-at="2018-12-07T14:48:09Z" finished-at="2018-12-07T14:48:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="failedLoginBlankFields()[pri:0, instance:tloocTests.LoginPageTest@59f99ea]" name="failedLoginBlankFields" duration-ms="653" started-at="2018-12-06T21:35:21Z" description="Verify validation are displayed when attempting to login with blank fields" finished-at="2018-12-06T21:35:22Z">
+        <test-method status="PASS" signature="failedLoginBlankFields()[pri:0, instance:tloocTests.LoginPageTest@1e88b3c]" name="failedLoginBlankFields" duration-ms="682" started-at="2018-12-07T14:48:35Z" description="Verify validation are displayed when attempting to login with blank fields" finished-at="2018-12-07T14:48:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- failedLoginBlankFields -->
-        <test-method status="PASS" signature="terminate()[pri:0, instance:tloocTests.LoginPageTest@59f99ea]" name="terminate" is-config="true" duration-ms="76" started-at="2018-12-06T21:35:22Z" finished-at="2018-12-06T21:35:22Z">
+        <test-method status="PASS" signature="terminate()[pri:0, instance:tloocTests.LoginPageTest@1e88b3c]" name="terminate" is-config="true" duration-ms="845" started-at="2018-12-07T14:48:36Z" finished-at="2018-12-07T14:48:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- terminate -->
-        <test-method status="PASS" signature="initialize()[pri:0, instance:tloocTests.LoginPageTest@59f99ea]" name="initialize" is-config="true" duration-ms="2787" started-at="2018-12-06T21:35:22Z" finished-at="2018-12-06T21:35:25Z">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:tloocTests.LoginPageTest@1e88b3c]" name="initialize" is-config="true" duration-ms="21853" started-at="2018-12-07T14:48:37Z" finished-at="2018-12-07T14:48:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="loginPageIsDisplayed()[pri:0, instance:tloocTests.LoginPageTest@59f99ea]" name="loginPageIsDisplayed" duration-ms="602" started-at="2018-12-06T21:35:25Z" description="Verify login page is displayed" finished-at="2018-12-06T21:35:26Z">
+        <test-method status="PASS" signature="loginPageIsDisplayed()[pri:0, instance:tloocTests.LoginPageTest@1e88b3c]" name="loginPageIsDisplayed" duration-ms="381" started-at="2018-12-07T14:48:58Z" description="Verify login page is displayed" finished-at="2018-12-07T14:48:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageIsDisplayed -->
-        <test-method status="PASS" signature="terminate()[pri:0, instance:tloocTests.LoginPageTest@59f99ea]" name="terminate" is-config="true" duration-ms="77" started-at="2018-12-06T21:35:26Z" finished-at="2018-12-06T21:35:26Z">
+        <test-method status="PASS" signature="terminate()[pri:0, instance:tloocTests.LoginPageTest@1e88b3c]" name="terminate" is-config="true" duration-ms="720" started-at="2018-12-07T14:48:59Z" finished-at="2018-12-07T14:49:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- terminate -->

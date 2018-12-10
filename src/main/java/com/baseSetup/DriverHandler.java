@@ -23,7 +23,7 @@ public class DriverHandler {
 		return activeDriver;
 	}
 	
-	//The idea is to have the ability of determining the driver to use from a config file and set it from setDriver() method
+	//The idea is to have the ability to set the driver to use from a config file and set it from setDriver() method
 	private static void setDriver() {
 		
 		activeDriver = initChromeDriver();
